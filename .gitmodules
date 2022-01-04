@@ -1,0 +1,3 @@
+[submodule "olc2-covid-backend"]
+	path = olc2-covid-backend
+	url = https://github.com/MacoChave/olc2-covid-backend.git
