@@ -2,6 +2,7 @@
 
 - [Manual de usuario](#manual-de-usuario)
   - [Introducción](#introducción)
+  - [Mockups](#mockups)
   - [Interfaz gráfica](#interfaz-gráfica)
     - [Área de navegación](#área-de-navegación)
 
@@ -9,9 +10,19 @@
 
 Esta aplicación tendrá como objetivo principal que un usuario pueda generar distintos análisis de información basados de un origen de datos (un archivo en Excel, CSV o JSON) y diferentes variables que se deberán configurar dentro del sistema según sea el ánalisis a realizar.
 
+## Mockups
+
+Así se planea que sea la interfaz gráfica para la pantalla de inicio
+
+![](images/mockup_home.jpg)
+
+Después de seleccionar el tipo de análisis, subir el archivo para analizar y parametrizar las columnas, mostrará la pantalla de resultado en donde mostrará el grafico y un resumen de los resultados solicitados
+
+![](images/mockup_result.jpg)
+
 ## Interfaz gráfica
 
-![](./assets/GUI.jpeg)
+![](images/gui_home.jpeg)
 La aplicación, cuenta con tres apartados:
 
 - `Seleccionar análisis` 
@@ -29,6 +40,8 @@ Predicción de casos de un País para un año
 Tendencia de la vacunación de un País
 ```
 
+![](images/gui_file.jpeg)
+
 - `Subir archivo` 
 En este apartado se debe de seleccionar un archivo externo para subir al analizador de COVID-19 y después se encuentra el apartado de: Separador; éste será seleccionado según se encuentren separados los datos en el archivo de referencia y estos pueden ser:
 
@@ -38,12 +51,13 @@ En este apartado se debe de seleccionar un archivo externo para subir al analiza
 | Punto y coma   | ;       |
 | Barra vertical | \|      |
 
+![](images/gui_params.jpeg)
+
 - `Completar campos` 
 Se encuentran diversas parámetros de columnas que deben ser completadas con los datos necesarios que se subdividen en País, Casos confirmados y Fecha. También es necesario definir los filtros colocando el País de interés para la obtención del análisis realizado por el programa.
 
 ### Área de navegación
 
-![](./assets/GUI_Navigation.jpg)
 
 Los pasos para la usabilidad de la aplicación web es la siguiente:
 
